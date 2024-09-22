@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 15px;
+}
+
+.counter{
+    font-size: 30px;
+    padding: 0px 10px 0px 10px;
+    background-color: green;
+    border-radius: 8px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#increse{
+    background-color: green;
+    text-transform: uppercase;
+}
+#reset{
+    background-color: red;
+    text-transform: uppercase;
+}
+#decrese{
+    background-color: rgb(247, 190, 3);
+    text-transform: uppercase;
+}
